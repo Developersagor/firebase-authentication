@@ -1,0 +1,15 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  background-color: rgb(105, 52, 204);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.header > nav > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+}

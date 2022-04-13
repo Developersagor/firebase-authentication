@@ -1,0 +1,42 @@
+.container {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form-heading {
+  color: rgb(67, 67, 212);
+  font-size: 1.5rem;
+}
+.form-container {
+  width: 500px;
+  height: 500px;
+  padding: 1rem;
+  box-shadow: 0 1rem 1.5rem -3px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.form-container .altText {
+  margin-top: 2rem;
+}
+form > input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+}
+form > button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: rgb(67, 67, 212);
+}
